@@ -1,0 +1,72 @@
+.header {
+  background-color: rgb(194, 194, 194);
+  padding-bottom: 1%;
+}
+
+.header2 {
+  background-color: rgb(194, 194, 194);
+  display: flex;
+  align-items: center;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.sidebar {
+  float: left;
+  width: 15%;
+  height: auto;
+}
+
+.menu {
+  font-family: "Russo One", sans-serif;
+  margin-left: 24%;
+}
+
+.map-site {
+  width: 270px;
+  height: 500px;
+  margin-left: 3%;
+}
+
+.download-file {
+  padding-left: 10%;
+  font-family: "Russo One", sans-serif;
+}
+
+.content {
+  background: linear-gradient(180deg, rgb(194, 194, 194), gold);
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 18%;
+  padding-right: 2%;
+}
+
+.LA5, .LA6, .LA7, .LA8, .LA9, .LA10 {
+  width: 100%;
+  transition: filter 0.3s linear;
+  filter: brightness(2) grayscale(1) opacity(0.5);
+}
+
+.LA5:hover, .LA6:hover, .LA7:hover, .LA8:hover, .LA9:hover, .LA10:hover {
+  filter: none;
+}
+
+img {
+  margin: 1%;
+}
+
+.footer {
+  background-color: gold;
+  text-align: center;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.map-LA {
+  width: 350px;
+  height: 350px;
+}

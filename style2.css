@@ -1,0 +1,9 @@
+body {
+  background:linear-gradient(180deg, gold, rgb(194, 194, 194));
+  font-family: "Nova Square", sans-serif;
+  color: purple;
+}
+
+.sidebar, a {
+  text-decoration: none;
+}
