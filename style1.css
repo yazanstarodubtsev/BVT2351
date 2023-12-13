@@ -1,0 +1,135 @@
+.header {
+  background-color: rgb(194, 194, 194);
+  padding-bottom: 1%;
+}
+
+.header2 {
+  background-color: rgb(194, 194, 194);
+  display: flex;
+  align-items: center;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.sidebar {
+  float: left;
+  width: 15%;
+  height: auto;
+}
+
+.menu {
+  font-family: "Russo One", sans-serif;
+  margin-left: 24%;
+}
+
+.map-site {
+  width: 270px;
+  height: 500px;
+  margin-left: 3%;
+}
+
+.download-file {
+  padding-left: 10%;
+  font-family: "Russo One", sans-serif;
+}
+
+.content {
+  background: linear-gradient(180deg, rgb(194, 194, 194), gold);
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 18%;
+  padding-right: 2%;
+}
+
+img {
+  margin: 1%;
+}
+
+.LA1:hover, .LA2:hover, .LA3:hover, .LA4:hover {
+  opacity: 20%;
+}
+
+#R1:before, #R2:before, #R3:before, #R4:before {
+  content: "<<";
+}
+#R1:after, #R2:after, #R3:after, #R4:after {
+  content: ">>";
+}
+
+.feedback {
+  text-align: center;
+}
+
+.input-name {
+  height: 30px;
+  color: purple;
+  background-color: rgb(228, 196, 19);
+  font-size: 14px;
+  font-family: "Russo One", sans-serif;
+  border: 3px solid purple;
+}
+
+.input-email {
+  height: 30px;
+  color: purple;
+  background-color: rgb(228, 196, 19);
+  font-size: 14px;
+  font-family: "Russo One", sans-serif;
+  border: 3px solid purple;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.input-comment {
+  width: 1000px;
+  height: 100px;
+  font-size: 14px;
+  color: purple;
+  background-color: rgb(228, 196, 19);
+  font-family: "Russo One", sans-serif;
+  border: 3px solid purple;
+}
+
+.input-name::placeholder, .input-email::placeholder, .input-comment::placeholder {
+  color: purple;
+}
+
+.feedback-button {
+  background-color: rgb(228, 196, 19);
+  color: purple;
+  width: 140px;
+  height: 50px;
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  border: 3px solid purple;
+  cursor: pointer;
+}
+
+.feedback-button:hover {
+  background: goldenrod;
+  transform: translate(0, 0.375em);
+}
+
+.feedback-button:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+.feedback-button:active {
+  transform: translate(0em, 0.75em);
+}
+
+.footer {
+  background-color: gold;
+  text-align: center;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.map-LA {
+  width: 350px;
+  height: 350px;
+}
